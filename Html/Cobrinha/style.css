@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  header h1 {
+    color: #333;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  #snake {
+    border: 1px solid #333;
+    background-color: #eee;
+  }
+  
+  .game-info {
+    margin-top: 10px;
+    text-align: center;
+    color: #666;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+  }
+  
+  footer a {
+    color: #00f;
+    text-decoration: none;
+  }
+  
